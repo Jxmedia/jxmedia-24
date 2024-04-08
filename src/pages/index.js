@@ -5,9 +5,9 @@ import Curve from "../images/curve.png";
 const IndexPage = () => {
   return (
     <>
-      <div className="top-0 z-50 backdrop-blur-sm border-b border-indigo-900 bg-darkBG text-white">
-        <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-          <a className="block w-[10rem] xl:mr-8" href="#hero">
+      <div className="top-0 z-50 backdrop-blur-sm  bg-darkBG text-white">
+        <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10">
+          <a className="block w-[9rem] xl:mr-8" href="#hero">
             <img src={Logo} className=""></img>
           </a>
           <a className="block xl:mr-8 text-gray-300" href="#hero">
@@ -29,14 +29,14 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="relative bg-darkBG">
-        <div className="relative z-1 px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
-          <h1 className="relative gradient__text font-primary font-bold block text-center py-10 xl:mr-8 text-6xl">
+        <div className="relative z-1 px-5 lg:px-7.5 xl:px-10">
+          <h1 className="relative gradient__text font-primary font-bold block text-center py-10 xl:mr-8 text-7xl">
             Let us help take your business to
             <span className="block">
               greater heights.
               <img
                 src={Curve}
-                className="pt-4 w-3/4 mx-auto"
+                className="pt-4 w-11/12 mx-auto"
                 width={624}
                 height={28}
                 alt="curve"
