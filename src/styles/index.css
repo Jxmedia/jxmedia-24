@@ -4,6 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
+.gradient__text {
+  background: var(--gradient-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 :root {
   --font-sora: "Sora," sans-serif;
+  /* --gradient-text: linear-gradient(to right, #ffafbd, #ffc3a0); */
+  --gradient-text: linear-gradient(to left, #a1ffce, #faffd1);
 }

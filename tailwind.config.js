@@ -8,7 +8,11 @@ module.exports = {
     fontFamily: {
       primary: ["Sora"],
     },
-    extend: {},
+    extend: {
+      colors: {
+        darkBG: "#0e0c15",
+      },
+    },
   },
   plugins: [],
 };
