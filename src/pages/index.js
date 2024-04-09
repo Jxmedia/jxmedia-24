@@ -1,15 +1,16 @@
 import * as React from "react";
 import Logo from "../images/hi_reslogo-01_white.svg";
 import Curve from "../images/curve.png";
-import Hero from "../images/hero-bg.png";
+import HeroBg from "../images/hero-bg.jpg";
+import Hero from "../images/hero.png";
 
 const IndexPage = () => {
   return (
     <>
       <div className="relative bg-darkBG pb-20">
         <div className="relative z-1">
-          <div className="bg-darkBG relative mx-auto md:max-w-5xl xl:mb-24">
-            <div className="relative isolate overflow-hidden">
+          <div className="bg-darkBG relative mx-auto">
+            <div className="border-b border-emerald-900 relative isolate overflow-hidden">
               <div className="fixed top-0 w-full z-50 backdrop-blur-sm bg-darkBG/70 text-white">
                 <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10">
                   <a className="block w-[7rem] xl:mr-8" href="#hero">
@@ -19,7 +20,7 @@ const IndexPage = () => {
                     ></img>
                   </a>
                   <a
-                    className="block xl:mr-8 text-[#d7ffea] hover:opacity-80 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
+                    className="block text-[#d7ffea] hover:opacity-80 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
                     href="#hero"
                   >
                     <svg
@@ -41,7 +42,7 @@ const IndexPage = () => {
               </div>
 
               <img
-                src={Hero}
+                src={HeroBg}
                 alt=""
                 className="absolute inset-0 -z-10 h-full w-full object-cover  opacity-20"
               />
@@ -58,15 +59,16 @@ const IndexPage = () => {
                   }}
                 />
               </div>
-              <div className="pt-[25%] pb-[10%]">
-                <div className="text-center px-5 lg:px-7.5 xl:px-10">
-                  <h1 className="relative gradient__text text-6xl font-primary font-bold block text-center pt-10 xl:mr-8">
-                    Let us help take your business to
+              <div className="pt-[28%] pb-[10%] md:pt-[23%] lg:pt-[18%] xl:pt-[11%]">
+                <div className="text-center px-5 lg:px-7.5 ">
+                  <h1 className="relative gradient__text text-6xl lg:text-7xl xl:text-8xl font-primary font-bold block text-center">
+                    Let us help take{" "}
+                    <span className="block">your business to</span>
                     <span className="block">
                       greater heights.
                       <img
                         src={Curve}
-                        className="pt-4 w-5/6 mx-auto"
+                        className="pt-4 w-5/6 md:w-4/6 lg:w-3/5 mx-auto"
                         width={1248}
                         height={56}
                         alt="curve"
@@ -74,7 +76,7 @@ const IndexPage = () => {
                     </span>
                   </h1>
 
-                  <p className="pt-8 font-primary text-center max-w-lg mx-auto mb-8 text-gray-200">
+                  <p className="text-lg pt-8 font-primary text-center leading-8 max-w-lg mx-auto mb-8 text-gray-200 lg:max-w-xl">
                     From logos, 3d Design, website and app Development, Jxmedia
                     has the skills to enhance your business' visual and web
                     experience in many ways, help us help you.
@@ -86,11 +88,11 @@ const IndexPage = () => {
                     Contact Us Today
                   </button>
                 </div>
-                <div className="px-4 relative mt-20 ">
-                  <div className="relative  rounded-xl bg-gradient-to-r from-amber-200 to-yellow-400 p-2 ring-1 ring-inset ring-yellow-900/10 lg:-m-4 lg:rounded-2xl lg:p-4">
+                <div className="px-4 mx-auto relative mt-20 lg:mt-28 lg:w-11/12 xl:w-10/12 lg:px-20">
+                  <div className="relative rounded-2xl bg-gradient-to-r from-green-200 to-amber-300 p-4 ring-1 ring-inset ring-yellow-900/10 lg:-m-4 lg:p-4">
                     <img
-                      src="https://tailwindui.com/img/component-images/project-app-screenshot.png"
-                      alt="App screenshot"
+                      src={Hero}
+                      alt="Hero"
                       width={2432}
                       height={1442}
                       className="relative rounded-md shadow-2xl ring-1 ring-gray-900/10"
