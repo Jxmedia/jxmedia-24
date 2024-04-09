@@ -1,6 +1,7 @@
 import * as React from "react";
 import Logo from "../images/hi_reslogo-01_white.svg";
 import Curve from "../images/curve.png";
+import Hero from "../images/hero-bg.png";
 
 const IndexPage = () => {
   return (
@@ -40,9 +41,9 @@ const IndexPage = () => {
               </div>
 
               <img
-                src="https://www.creativefabrica.com/wp-content/uploads/2023/05/11/Modern-colourful-abstract-background-Graphics-69439498-1.jpg"
+                src={Hero}
                 alt=""
-                className="absolute inset-0 -z-10 h-full w-full object-cover opacity-20"
+                className="absolute inset-0 -z-10 h-full w-full object-cover  opacity-20"
               />
 
               <div
