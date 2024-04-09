@@ -7,10 +7,10 @@ import Hero from "../images/hero.png";
 const IndexPage = () => {
   return (
     <>
-      <div className="relative bg-darkBG pb-20">
+      <div className="relative bg-darkBG">
         <div className="relative z-1">
           <div className="bg-darkBG relative mx-auto">
-            <div className="border-b border-emerald-900 relative isolate overflow-hidden">
+            <div className=" relative isolate overflow-hidden">
               <div className="fixed top-0 w-full z-50 backdrop-blur-sm bg-darkBG/70 text-white">
                 <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10">
                   <a className="block w-[7rem] xl:mr-8" href="#hero">
@@ -100,7 +100,31 @@ const IndexPage = () => {
                   </div>
                 </div>
               </div>
+              <div className="relative" aria-hidden="true">
+                <div className="absolute -inset-x-20 bottom-0 bg-gradient-to-t from-darkBG pt-[10%]" />
+              </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="intro bg-gradient-to-t from-[#0e150c] to-darkBG">
+        <div class="pb-10 px-4 text-left sm:px-6 flex pt-10 items-center justify-center sm:max-w-7xl mx-auto sm:pt-32 sm:pb-28">
+          <div class="font-primary sm:text-center">
+            <p class="text-amber-200 max-w-6xl mt-1 mx-auto text-3xl sm:text-6xl font-extrabold leading-tight">
+              Independently-owned, the{" "}
+              <span className="block">
+                One-stop shop for design and development.
+              </span>
+            </p>
+            <p class="max-w-5xl mx-auto mt-7 text-2xl text-white leading-relaxed">
+              Complete the image of your business with custom assets ranging
+              from graphic design and branding, website/app design and
+              development, to packaging design, advertising etc. With over a
+              decade in the space, utilizing the newest tools and programs
+              available, we surpass the expectations of our clients time and
+              time again.
+            </p>
           </div>
         </div>
       </div>
