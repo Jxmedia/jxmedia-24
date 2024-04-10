@@ -110,7 +110,7 @@ const IndexPage = () => {
       </div>
 
       <div class="intro bg-gradient-to-t from-[#0e150c] to-darkBG">
-        <div class="pb-10 px-4 text-left sm:px-6 flex pt-12 items-center justify-center sm:max-w-7xl mx-auto">
+        <div class="pb-10 px-4 text-left sm:px-6 flex items-center justify-center sm:max-w-7xl mx-auto">
           <div class="font-primary sm:text-center">
             <p class="text-amber-200 max-w-6xl mt-1 mx-auto text-3xl sm:text-6xl font-extrabold leading-tight">
               Independently-owned, the{" "}
