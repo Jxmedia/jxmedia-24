@@ -11,6 +11,10 @@
   -webkit-text-fill-color: transparent;
 }
 
+article {
+  font-family: Sora, sans-serif;
+}
+
 :root {
   --font-sora: "Sora," sans-serif;
   /* --gradient-text: linear-gradient(to right, #ffafbd, #ffc3a0); */

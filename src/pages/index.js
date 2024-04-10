@@ -3,12 +3,13 @@ import Logo from "../images/hi_reslogo-01_white.svg";
 import Curve from "../images/curve.png";
 import HeroBg from "../images/hero-bg.jpg";
 import Hero from "../images/hero.png";
+import Projects from "../components/Projects";
 
 const IndexPage = () => {
   return (
     <>
       <div className="relative bg-darkBG">
-        <div className="relative z-1">
+        <div className="relative z-50">
           <div className="bg-darkBG relative mx-auto">
             <div className=" relative isolate overflow-hidden">
               <div className="fixed top-0 w-full z-50 backdrop-blur-sm bg-darkBG/70 text-white">
@@ -109,7 +110,7 @@ const IndexPage = () => {
       </div>
 
       <div class="intro bg-gradient-to-t from-[#0e150c] to-darkBG">
-        <div class="pb-10 px-4 text-left sm:px-6 flex pt-10 items-center justify-center sm:max-w-7xl mx-auto sm:pt-32 sm:pb-28">
+        <div class="pb-10 px-4 text-left sm:px-6 flex pt-12 items-center justify-center sm:max-w-7xl mx-auto">
           <div class="font-primary sm:text-center">
             <p class="text-amber-200 max-w-6xl mt-1 mx-auto text-3xl sm:text-6xl font-extrabold leading-tight">
               Independently-owned, the{" "}
@@ -127,6 +128,49 @@ const IndexPage = () => {
             </p>
           </div>
         </div>
+        <div class="pt-6 pb-20">
+          <div class="mx-auto max-w-7xl px-6 lg:px-20">
+            <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+              <img
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
+                alt="Transistor"
+                width="158"
+                height="48"
+              />
+              <img
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
+                alt="Reform"
+                width="158"
+                height="48"
+              />
+              <img
+                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+                src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
+                alt="Tuple"
+                width="158"
+                height="48"
+              />
+              <img
+                class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
+                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
+                alt="SavvyCal"
+                width="158"
+                height="48"
+              />
+              <img
+                class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
+                src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
+                alt="Statamic"
+                width="158"
+                height="48"
+              />
+            </div>
+          </div>
+        </div>
+
+        <Projects />
       </div>
     </>
   );
