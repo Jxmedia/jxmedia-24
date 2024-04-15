@@ -3,7 +3,7 @@ import React from "react";
 const LilSquare = (props) => {
   return (
     <article class="pt-[80%] relative isolate flex flex-col justify-end overflow-hidden rounded-2xl bg-gray-900 px-8 hover:opacity-90">
-      <a href="/work/sesh/">
+      <a href={props.href}>
         <img
           src={props.img}
           alt={props.alt}

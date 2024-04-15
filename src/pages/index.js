@@ -4,44 +4,15 @@ import Curve from "../images/curve.png";
 import HeroBg from "../images/hero-bg.jpg";
 import Hero from "../images/hero.png";
 import Projects from "../components/Projects";
+import Layout from "../components/Layout";
 
 const IndexPage = () => {
   return (
-    <>
+    <Layout>
       <div className="relative bg-darkBG">
         <div className="relative z-50">
           <div className="bg-darkBG relative mx-auto">
             <div className=" relative isolate overflow-hidden">
-              <div className="fixed top-0 w-full z-50 backdrop-blur-sm bg-darkBG/70 text-white">
-                <div className="flex justify-between items-center px-5 lg:px-7.5 xl:px-10">
-                  <a className="block w-[7rem] xl:mr-8" href="#hero">
-                    <img
-                      src={Logo}
-                      className="hover:opacity-80 transition ease-in-out duration-300"
-                    ></img>
-                  </a>
-                  <a
-                    className="block text-[#d7ffea] hover:opacity-80 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                    href="#hero"
-                  >
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke-width="1.5"
-                      stroke="currentColor"
-                      class="w-20 h-20"
-                    >
-                      <path
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                      />
-                    </svg>
-                  </a>
-                </div>
-              </div>
-
               <img
                 src={HeroBg}
                 alt=""
@@ -82,12 +53,14 @@ const IndexPage = () => {
                     has the skills to enhance your business' visual and web
                     experience in many ways, help us help you.
                   </p>
-                  <button
-                    type="button"
-                    className="font-primary rounded-2xl bg-[#a1ffce] px-12 py-4 text-xl font-bold text-gray-900 hover:opacity-80 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
-                  >
-                    Contact Us Today
-                  </button>
+                  <a href="mailto:josh@thejxmediagroup.com">
+                    <button
+                      type="button"
+                      className="font-primary rounded-2xl bg-[#a1ffce] px-12 py-4 text-xl font-bold text-gray-900 hover:opacity-80 transition ease-in-out duration-300 hover:-translate-y-1 hover:scale-110"
+                    >
+                      Contact Us Today
+                    </button>
+                  </a>
                 </div>
                 <div className="px-4 mx-auto relative mt-20 lg:mt-28 lg:w-11/12 xl:w-10/12 lg:px-20">
                   <div className="relative rounded-2xl bg-gradient-to-r from-green-200 to-amber-300 p-4 ring-1 ring-inset ring-yellow-900/10 lg:-m-4 lg:p-4">
@@ -129,42 +102,60 @@ const IndexPage = () => {
           </div>
         </div>
         <div class="pt-6 pb-20">
+          <p class="max-w-5xl mx-auto -mb-10 text-sm text-yellow-100 leading-relaxed uppercase font-bold font-primary text-center">
+            Some services we can provide your business
+          </p>
           <div class="mx-auto max-w-7xl px-6 lg:px-20">
-            <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+            <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center sm:max-w-xl sm:grid-cols-6  lg:mx-0 lg:max-w-none lg:grid-cols-5">
               <img
-                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-                alt="Transistor"
-                width="158"
-                height="48"
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/1ff1a8a0-fb5f-11ee-bec5-7f9403a32f29-Psd.png"
+                alt="Photoshop"
               />
               <img
-                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-                alt="Reform"
-                width="158"
-                height="48"
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/46cb7d70-fb5f-11ee-bec5-7f9403a32f29-Ai.png"
+                alt="Illustrator"
               />
               <img
-                class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-                alt="Tuple"
-                width="158"
-                height="48"
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/729004d0-fb5f-11ee-bec5-7f9403a32f29-Ae.png"
+                alt="After Effects"
               />
               <img
-                class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-                alt="SavvyCal"
-                width="158"
-                height="48"
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/9ddc00d0-fb5f-11ee-bec5-7f9403a32f29-Premiere.png"
+                alt="Premiere"
               />
               <img
-                class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-                src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-                alt="Statamic"
-                width="158"
-                height="48"
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/19ce6420-fb61-11ee-bec5-7f9403a32f29-Blender.png"
+                alt="Blender"
+              />
+              <img
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/de1950d0-fb5f-11ee-bec5-7f9403a32f29-Js.png"
+                alt="JS"
+              />
+              <img
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/0c2cf850-fb60-11ee-bec5-7f9403a32f29-React.png"
+                alt="React"
+              />
+              <img
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/5a7085e0-fb60-11ee-bec5-7f9403a32f29-Html.png"
+                alt="Html"
+              />
+              <img
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/a0d52720-fb60-11ee-bec5-7f9403a32f29-Node.png"
+                alt="Node"
+              />
+              <img
+                class="col-span-2 h-1/2 w-full object-contain lg:col-span-1"
+                src="https://imgix.cosmicjs.com/ce78d950-fb61-11ee-bec5-7f9403a32f29-wordpress.png"
+                alt="Wordpress"
               />
             </div>
           </div>
@@ -172,7 +163,7 @@ const IndexPage = () => {
 
         <Projects />
       </div>
-    </>
+    </Layout>
   );
 };
 

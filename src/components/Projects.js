@@ -4,11 +4,11 @@ import LilSquare from "../components/LilSq";
 
 const Projects = () => {
   return (
-    <div class="border-t border-emerald-900 bg-primary pt-10">
+    <div class="border-t border-emerald-900 bg-primary pt-10 pb-12">
       <div class="First projects-reversed px-10 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
         <ul class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
           <LilSquare
-            href="blah"
+            href="/projects/cop-a-cookie/"
             img="https://imgix.cosmicjs.com/c07f18d0-f785-11ee-b555-0d0678c27dd7-Main-logo-word-med.png"
             alt="Cop A Cookie"
             color="from-blue-900/30"
@@ -16,9 +16,9 @@ const Projects = () => {
 
           <LilSquare
             href="blah"
-            img="https://imgix.cosmicjs.com/537cc940-9b3d-11ec-8e3f-657e6f5f8486-retriever-avatar.jpg"
-            alt="Retriever Property"
-            color="from-green-900/30"
+            img="https://imgix.cosmicjs.com/843198f0-fb5c-11ee-bec5-7f9403a32f29-avatar.png"
+            alt="Atlas BMS"
+            color="from-blue-900/30"
           />
 
           <BigSquare
@@ -30,21 +30,21 @@ const Projects = () => {
 
           <LilSquare
             href="blah"
-            img="https://imgix.cosmicjs.com/8787f2a0-9e62-11ec-b20b-ad2fdaf5e1bc-win-win-avatar.jpg"
-            alt="Win Win Homes"
-            color="from-amber-900/30"
+            img="https://imgix.cosmicjs.com/021d29a0-fb5d-11ee-bec5-7f9403a32f29-ICON_DB_COLOR-WEBSITE.jpg"
+            alt="Dog Butler"
+            color="from-red-900/30"
           />
 
           <LilSquare
             href="blah"
-            img="https://imgix.cosmicjs.com/bfd522d0-9e63-11ec-b20b-ad2fdaf5e1bc-cai-avatar.jpg"
-            alt="CAI Swimwear"
-            color="from-amber-900/30"
+            img="https://imgix.cosmicjs.com/548de620-fb5d-11ee-bec5-7f9403a32f29-bb-avatar.jpg"
+            alt="Black Brew Bros"
+            color="from-green-900/30"
           />
         </ul>
       </div>
 
-      <div class="Second px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
+      <div class="hidden Second px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
         <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
           <BigSquare
             href="blah"
@@ -83,7 +83,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div class="Third projects-reversed px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
+      <div class="hidden Third projects-reversed px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
         <ul class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
           <LilSquare
             href="blah"
