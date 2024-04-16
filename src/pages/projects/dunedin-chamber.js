@@ -1,15 +1,15 @@
 import React from "react";
 import Layout from "../../components/Layout";
 
-export default function CopCookie() {
+export default function DunedinChamber() {
   return (
     <Layout>
-      <div class="pt-28 font-primary bg-gradient-to-r from-cyan-200 to-blue-200">
+      <div class="pt-28 font-primary bg-gradient-to-r from-amber-200 to-yellow-200">
         <div class="max-w-7xl mx-auto pt-9 pb-7 px-8">
           {" "}
           <div class="text-center">
-            <p class="mt-1 text-6xl font-extrabold text-blue-900">
-              Cop A Cookie
+            <p class="mt-1 text-6xl font-extrabold text-amber-900">
+              Dunedin Chamber of Commerce
             </p>
           </div>
           <div class="badges pt-7 pb-5  flex justify-center space-x-4">
@@ -29,21 +29,35 @@ export default function CopCookie() {
         <div>
           <img
             class="h-auto max-w-full rounded-2xl"
-            src="https://imgix.cosmicjs.com/76b68780-fc24-11ee-bec5-7f9403a32f29-web-cop-a-cookie.png"
+            src="https://imgix.cosmicjs.com/a518cec0-fc25-11ee-bec5-7f9403a32f29-web-dunedin.png"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-2xl"
-            src="https://imgix.cosmicjs.com/e02f3ee0-fb67-11ee-bec5-7f9403a32f29-Logo-main.png"
+            src="https://imgix.cosmicjs.com/cc7d9060-fc23-11ee-bec5-7f9403a32f29-Logo-main.png"
             alt=""
           />
         </div>
         <div>
           <img
             class="h-auto max-w-full rounded-2xl"
-            src="https://imgix.cosmicjs.com/f529baa0-fb67-11ee-bec5-7f9403a32f29-Main-logo-med.png"
+            src="https://imgix.cosmicjs.com/cc74b6c0-fc23-11ee-bec5-7f9403a32f29-Logo-main-alt2.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-2xl"
+            src="https://imgix.cosmicjs.com/cc709810-fc23-11ee-bec5-7f9403a32f29-Logo-main-alt.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <img
+            class="h-auto max-w-full rounded-2xl"
+            src="https://imgix.cosmicjs.com/cc835cc0-fc23-11ee-bec5-7f9403a32f29-Logo-icons.png"
             alt=""
           />
         </div>

@@ -15,31 +15,31 @@ const Projects = () => {
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/atlas-bms/"
             img="https://imgix.cosmicjs.com/843198f0-fb5c-11ee-bec5-7f9403a32f29-avatar.png"
             alt="Atlas BMS"
             color="from-blue-900/30"
           />
 
           <BigSquare
-            href="https://www.artstation.com/artwork/n0zYaK"
-            img="https://cdna.artstation.com/p/assets/images/images/073/934/524/large/josh-sutherland-test15-edited.jpg?1710839900"
-            alt="Jessica"
-            color="from-blue-900/30"
+            href="/projects/dunedin-chamber/"
+            img="https://imgix.cosmicjs.com/e7d8a7c0-fc21-11ee-bec5-7f9403a32f29-IG.png"
+            alt="Dunedin COC"
+            color="from-amber-900/30"
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/dog-butler/"
             img="https://imgix.cosmicjs.com/021d29a0-fb5d-11ee-bec5-7f9403a32f29-ICON_DB_COLOR-WEBSITE.jpg"
             alt="Dog Butler"
             color="from-red-900/30"
           />
 
           <LilSquare
-            href="blah"
-            img="https://imgix.cosmicjs.com/548de620-fb5d-11ee-bec5-7f9403a32f29-bb-avatar.jpg"
-            alt="Black Brew Bros"
-            color="from-green-900/30"
+            href="https://www.artstation.com/artwork/n0zYaK"
+            img="https://cdna.artstation.com/p/assets/images/images/073/934/524/large/josh-sutherland-test15-edited.jpg?1710839900"
+            alt="Jessica"
+            color="from-blue-900/30"
           />
         </ul>
       </div>
