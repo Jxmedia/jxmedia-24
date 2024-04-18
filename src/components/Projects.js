@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div class="border-t border-emerald-900 bg-primary pt-10 pb-12">
       <div class="First projects-reversed px-10 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
-        <ul class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
+        <ul class="w-full grid grid-cols-2 md:grid-cols-4 gap-4 ">
           <LilSquare
             href="/projects/cop-a-cookie/"
             img="https://imgix.cosmicjs.com/c07f18d0-f785-11ee-b555-0d0678c27dd7-Main-logo-word-med.png"

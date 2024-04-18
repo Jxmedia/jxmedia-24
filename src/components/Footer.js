@@ -3,7 +3,7 @@ import * as React from "react";
 const Footer = () => {
   return (
     <>
-      <footer class="font-primary bg-darkBG">
+      <footer class="font-primary bg-darkBG text-center md:text-left">
         <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-20 lg:px-8 lg:flex lg:items-center lg:justify-between ">
           <div class="">
             <h2 class="text-5xl font-extrabold tracking-tight text-white ">
@@ -21,7 +21,7 @@ const Footer = () => {
               </span>
             </div>
           </div>
-          <div class="mt-8 flex lg:mt-0 lg:flex-shrink-0">
+          <div class="mt-8 flex justify-center lg:mt-0 lg:flex-shrink-0">
             <div class=" rounded-md">
               <div class="flex justify-center space-x-7">
                 <a
