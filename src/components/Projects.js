@@ -48,9 +48,9 @@ const Projects = () => {
         <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
           <BigSquare
             href="blah"
-            img="https://imgix.cosmicjs.com/ecab8060-b290-11ec-97bc-19d12908cbbe-vm-avatar.jpg"
-            alt="Beauty by VM"
-            color="from-rose-900/30"
+            img="https://imgix.cosmicjs.com/ef67c2a0-0572-11ef-bec5-7f9403a32f29-Avatar.png"
+            alt="Anciom LLC"
+            color="from-blue-900/30"
           />
 
           <LilSquare

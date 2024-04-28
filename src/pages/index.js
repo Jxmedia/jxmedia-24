@@ -17,7 +17,7 @@ const IndexPage = () => {
 
         <meta
           name="description"
-          content="Complete the image of your business with custom design assets for your marketing campaigns and/or branding projects. With over 10 years experience in the design space, utilizing the newest tools and programs available, we surpass the expectations of our clients time and time again."
+          content="Complete the image of your business with custom design and web assets for your marketing campaigns and/or branding projects. With over 10 years experience in the design space, utilizing the newest tools and programs available, we surpass the expectations of our clients time and time again."
         />
         <meta property="og:locale" content="en_US"></meta>
         <meta property="og:type" content="website"></meta>
@@ -150,52 +150,62 @@ const IndexPage = () => {
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/1ff1a8a0-fb5f-11ee-bec5-7f9403a32f29-Psd.png"
-                alt="Photoshop"
+                alt="Adobe Photoshop"
+                title="Adobe Photoshop"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/46cb7d70-fb5f-11ee-bec5-7f9403a32f29-Ai.png"
-                alt="Illustrator"
+                alt="Adobe Illustrator"
+                title="Adobe Illustrator"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/729004d0-fb5f-11ee-bec5-7f9403a32f29-Ae.png"
-                alt="After Effects"
+                alt="Adobe After Effects"
+                title="Adobe After Effects"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/9ddc00d0-fb5f-11ee-bec5-7f9403a32f29-Premiere.png"
-                alt="Premiere"
+                alt="Adobe Premiere"
+                title="Adobe Premiere"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/19ce6420-fb61-11ee-bec5-7f9403a32f29-Blender.png"
                 alt="Blender"
+                title="Blender"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/de1950d0-fb5f-11ee-bec5-7f9403a32f29-Js.png"
                 alt="JS"
+                title="Javascript"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/0c2cf850-fb60-11ee-bec5-7f9403a32f29-React.png"
                 alt="React"
+                title="ReactJS"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/5a7085e0-fb60-11ee-bec5-7f9403a32f29-Html.png"
                 alt="Html"
+                title="Html"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/a0d52720-fb60-11ee-bec5-7f9403a32f29-Node.png"
                 alt="Node"
+                title="NodeJS"
               />
               <img
                 class="h-1/2 w-full object-contain lg:col-span-1"
                 src="https://imgix.cosmicjs.com/ce78d950-fb61-11ee-bec5-7f9403a32f29-wordpress.png"
                 alt="Wordpress"
+                title="Wordpress"
               />
             </div>
           </div>
