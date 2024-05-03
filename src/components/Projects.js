@@ -44,38 +44,38 @@ const Projects = () => {
         </ul>
       </div>
 
-      <div class="hidden Second px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
+      <div class="Second px-4 bg-primary pt-4 sm:px-14 flex items-center justify-center text-center">
         <div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 ">
           <BigSquare
-            href="blah"
+            href="/projects/anciom/"
             img="https://imgix.cosmicjs.com/ef67c2a0-0572-11ef-bec5-7f9403a32f29-Avatar.png"
             alt="Anciom LLC"
             color="from-blue-900/30"
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/sesh/"
             img="https://imgix.cosmicjs.com/9298a1b0-aedb-11ec-abde-779eab3b09ef-MAIN-AVATAR.png"
             alt="Dj Sesh"
             color="from-red-900/30"
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/eupen/"
             img="https://imgix.cosmicjs.com/8b1b4550-7880-11ec-bc8e-0b22aad4e2bd-eupen-avatar.jpg"
             alt="Eupen Cable USA"
             color="from-blue-900/30"
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/bbrew/"
             img="https://imgix.cosmicjs.com/4607cd70-7886-11ec-bc8e-0b22aad4e2bd-bb-avatar.jpg"
             alt="BlackBrew Brothers"
             color="from-green-900/30"
           />
 
           <LilSquare
-            href="blah"
+            href="/projects/evalution/"
             img="https://imgix.cosmicjs.com/6d286b10-788d-11ec-bc8e-0b22aad4e2bd-evalution-ig-post.png"
             alt="Evalution"
             color="from-gray-900/80"
